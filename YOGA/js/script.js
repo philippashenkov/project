@@ -169,8 +169,8 @@ window.addEventListener('DOMContentLoaded', function() {
         slides = document.querySelectorAll('.slider-item'),
         prev = document.querySelector('.prev'),
         next = document.querySelector('.next'),
-        ditsWrap = document.querySelector('.slider-dots'),
-        dot = document.querySelectorAll('.dot');
+        dotsWrap = document.querySelector('.slider-dots'),
+        dots = document.querySelectorAll('.dot');
 
     showSlides(slideIndex);
     function showSlides(n) {
